@@ -1,0 +1,21 @@
+{
+  "name": "ai-cost-tracker",
+  "version": "1.0.0",
+  "description": "TypeScript SDK wrapper that tracks OpenAI token usage, costs, and latency per session and tag.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "npx ts-node tests/tracker.test.ts",
+    "example": "npx ts-node examples/basic.ts"
+  },
+  "keywords": ["openai", "cost", "tracking", "tokens", "typescript", "ai"],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  },
+  "peerDependencies": {
+    "openai": ">=4.0.0"
+  }
+}
